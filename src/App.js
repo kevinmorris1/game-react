@@ -1,10 +1,12 @@
+import "./App.css";
 
-function App() {
+import YoutubeEmbed from "./components/YoutubeVideo";
+
+export default function App() {
   return (
     <div className="App">
-      <h1>Kevin Morris</h1>
+      <h1>Videodle</h1>
+      <YoutubeEmbed embedId="djV11Xbc914" />
     </div>
   );
 }
-
-export default App;
